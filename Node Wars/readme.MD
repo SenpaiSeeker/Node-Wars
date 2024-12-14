@@ -14,6 +14,8 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
 1. **Install Dependencies and Modules:**
@@ -32,6 +34,8 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "doTasks": true,
+  "playGames": true,
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
